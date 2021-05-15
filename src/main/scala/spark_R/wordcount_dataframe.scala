@@ -12,7 +12,8 @@ object wordcount_dataframe extends App {
   val a= spark.read.format("text").load("C:\\Users\\Shiva\\IdeaProjects\\new_one\\src\\main\\resources\\123.txt").toDF("word1")
   //a.show(false)
   val b= a.withColumn("word",explode(split(col("word1")," "))).select(col("word"))
-   b.groupBy("word").count().show()
+   val e=b.groupBy("word").count()
+  e.show()
 
   println("second Type")
   val c= spark.read.format("text").load("C:\\Users\\Shiva\\IdeaProjects\\new_one\\src\\main\\resources\\1234.txt").toDF("word1")

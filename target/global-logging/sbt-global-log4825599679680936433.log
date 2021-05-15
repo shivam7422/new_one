@@ -1,0 +1,11 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] compiling 78 Scala sources to C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes ...
+[warn] there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[success] Total time: 50 s, completed 3 May, 2021 7:01:07 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,14 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[info] compiling 76 Scala sources to C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.6. Compiling...
+[warn] In the last 61 seconds, 6.814 (11.3%) were spent in GC. [Heap: 0.51GB free of 0.64GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[info]   Compilation completed in 42.963s.
+[warn] there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[success] Total time: 104 s (01:44), completed 26 Apr, 2021 10:35:57 PM
+[debug] > Exec(idea-shell, None, None)

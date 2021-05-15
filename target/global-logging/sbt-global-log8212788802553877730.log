@@ -1,0 +1,115 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Shiva/AppData/Local/Temp/sbt-structure1.xml; session clear-all ; set ideaPort in Global := 52074, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.9 (Oracle Corporation Java 1.8.0_271)
+[debug]       Load.loadUnit: plugins took 115.0974ms
+[debug]       Load.loadUnit: defsScala took 0.011ms
+[debug] [Loading] Scanning directory C:\Users\Shiva\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Shiva\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.1539 ms
+[debug]           Load.resolveProject(global-plugins) took 2.2177ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Shiva\.sbt\1.0\plugins, plugins: List(<none>))) took 23.9646ms
+[debug] [Loading] Done in C:\Users\Shiva\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 27.58ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0374ms
+[debug]     Load.loadUnit(file:/C:/Users/Shiva/.sbt/1.0/plugins/, ...) took 144.493ms
+[debug]   Load.apply: load took 158.6287ms
+[debug]   Load.apply: resolveProjects took 0.1466ms
+[debug]   Load.apply: finalTransforms took 65.196ms
+[debug]   Load.apply: config.delegates took 0.6089ms
+[debug]   Load.apply: Def.make(settings)... took 183.8317ms
+[debug]   Load.apply: structureIndex took 141.5437ms
+[debug]   Load.apply: mkStreams took 0.0037ms
+[info] loading global plugins from C:\Users\Shiva\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 1353.0403ms
+[debug]           Load.loadUnit: plugins took 543.7243ms
+[debug]           Load.loadUnit: defsScala took 0.0049ms
+[debug] [Loading] Scanning directory C:\Users\Shiva\IdeaProjects\new_one\project
+[debug]             Load.loadUnit: mkEval took 8.0193ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Shiva\IdeaProjects\new_one\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4734 ms
+[info] loading settings for project new_one-build from idea1.sbt ...
+[debug]               Load.resolveProject(new_one-build) took 2.2556ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id new_one-build, base: C:\Users\Shiva\IdeaProjects\new_one\project, plugins: List(<none>))) took 5.2356ms
+[debug] [Loading] Done in C:\Users\Shiva\IdeaProjects\new_one\project, returning: (new_one-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 158.7165ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.0463ms
+[debug]         Load.loadUnit(file:/C:/Users/Shiva/IdeaProjects/new_one/project/, ...) took 707.6021ms
+[debug]       Load.apply: load took 720.7072ms
+[debug]       Load.apply: resolveProjects took 0.1375ms
+[debug]       Load.apply: finalTransforms took 35.0807ms
+[debug]       Load.apply: config.delegates took 0.3353ms
+[debug]       Load.apply: Def.make(settings)... took 380.8026ms
+[debug]       Load.apply: structureIndex took 197.4335ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from C:\Users\Shiva\IdeaProjects\new_one\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2338.3326ms
+[debug]     Load.loadUnit: defsScala took 0.0064ms
+[debug] [Loading] Scanning directory C:\Users\Shiva\IdeaProjects\new_one
+[debug]       Load.loadUnit: mkEval took 0.3899ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Shiva\IdeaProjects\new_one, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 37.8227 ms
+[info] loading settings for project new_one from build.sbt ...
+[debug]         Load.resolveProject(new_one) took 65.7827ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id new_one, base: C:\Users\Shiva\IdeaProjects\new_one, plugins: List(<none>))) took 110.4848ms
+[debug] [Loading] Done in C:\Users\Shiva\IdeaProjects\new_one, returning: (new_one)
+[debug]     Load.loadUnit: loadedProjectsRaw took 425.3863ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.9611ms
+[debug]   Load.loadUnit(file:/C:/Users/Shiva/IdeaProjects/new_one/, ...) took 2770.2504ms
+[debug] Load.apply: load took 2775.8386ms
+[debug] Load.apply: resolveProjects took 0.088ms
+[debug] Load.apply: finalTransforms took 106.7789ms
+[debug] Load.apply: config.delegates took 0.8236ms
+[debug] Load.apply: Def.make(settings)... took 369.2689ms
+[debug] Load.apply: structureIndex took 81.7317ms
+[debug] Load.apply: mkStreams took 0.0035ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to new_one (in build file:/C:/Users/Shiva/IdeaProjects/new_one/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to new_one (in build file:/C:/Users/Shiva/IdeaProjects/new_one/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/Shiva/AppData/Local/Temp/sbt-structure1.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Writing structure to C:\Users\Shiva\AppData\Local\Temp\sbt-structure1.xml...
+[info] Done.
+[success] Total time: 10 s, completed 26 Apr, 2021 10:19:34 PM
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to new_one (in build file:/C:/Users/Shiva/IdeaProjects/new_one/)
+[debug] > Exec(set ideaPort in Global := 52074, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to new_one (in build file:/C:/Users/Shiva/IdeaProjects/new_one/)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

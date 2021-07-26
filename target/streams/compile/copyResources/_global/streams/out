@@ -1,5 +1,8 @@
 [debug] Copy resource mappings: 
+[debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\1.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\1.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\123.csv,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\123.csv)
+[debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\123.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\123.txt)
+[debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\1234.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\1234.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\abc.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\abc.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\ages.xml,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\ages.xml)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\artists_en.json,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\artists_en.json)
@@ -10,6 +13,7 @@
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\data.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\data.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\department_assignment.csv,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\department_assignment.csv)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\employee_assignment.csv,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\employee_assignment.csv)
+[debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\file.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\file.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\file1.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\file1.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\file2.txt,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\file2.txt)
 [debug] 	(C:\Users\Shiva\IdeaProjects\new_one\src\main\resources\FL_insurance_sample.csv,C:\Users\Shiva\IdeaProjects\new_one\target\scala-2.12\classes\FL_insurance_sample.csv)

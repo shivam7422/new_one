@@ -6,8 +6,8 @@ import org.apache.spark.sql.SparkSession
 object atos extends App{
 
 
-  val spark= SparkSession.builder().appName("CSV_reader").master("local").enableHiveSupport().getOrCreate()
-  val a= spark.sparkContext.textFile("C:\\Users\\Shiva\\IdeaProjects\\new_one\\src\\main\\resources\\atos.txt")
+  val spark= SparkSession.builder().appName("CSV_reader").getOrCreate()
+  val a= spark.sparkContext.textFile("s3n://files7422/atos.txt")
  // a.foreach(println)
   val b= a.flatMap(x=>x.split(" "))
   val c= b.groupBy(w=>w)
@@ -22,7 +22,10 @@ object atos extends App{
  // val f= spark.sql("select * from temp_table order by count desc limit 5")
   //val g= f.drop("count").show()
 
-  e.orderBy(desc("count")).limit(5).show()
+ val df2= e.orderBy(desc("count")).limit(5)
+  df2.write.mode("overwrite").save("s3n://mypythonfile7422/output3")
+  println("==================================")
+  spark.read.load("s3n://mypythonfile7422/output3").show()
 
 
 }

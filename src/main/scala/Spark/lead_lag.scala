@@ -36,5 +36,5 @@ import spark.implicits._
   val i= a.withColumn("lag",h).where("lag !=0")
   val j= i.select (col("server"),col("status"),col("end"),col("status")
     ,(col("start")-col("lag")).as("new_data")).where ("new_data != 0.0")
-  j.show()
+  j.distinct().show()
 }

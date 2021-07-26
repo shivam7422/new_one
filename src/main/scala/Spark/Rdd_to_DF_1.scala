@@ -20,4 +20,6 @@ object Rdd_to_DF_1 extends App {
   c.printSchema()
   c.show()
 
+
+
 }

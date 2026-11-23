@@ -4,7 +4,7 @@ name: Build Banking Spark Scala JAR
 on:
   push:
     branches:
-      - test
+      - master_test
   workflow_dispatch:
 
 jobs:

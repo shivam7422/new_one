@@ -1,4 +1,4 @@
-package Practice
+/*package Practice
 import io._
 
 class Palin
@@ -32,4 +32,4 @@ object palindrome extends  App{
   val s= new Palin
   s.Pal("shivam")
 
-}
+}*/

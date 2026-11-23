@@ -1,4 +1,4 @@
-package Spark
+/*package Spark
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.catalyst.dsl.plans._
@@ -114,4 +114,4 @@ object hive_update extends App{
   */
   val data = spark.range(0, 5)
   data.write.format("delta").save("C:\\Users\\Shiva\\IdeaProjects\\new_one\\src\\main\\res_par1\\temp.parquet\\")
-}
+}*/

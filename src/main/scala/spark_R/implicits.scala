@@ -1,4 +1,4 @@
-package spark_R
+/*package spark_R
 
 class ant {
 
@@ -20,4 +20,4 @@ object implicits extends  App{
   //s.disp("India")
 
 }
-
+*/

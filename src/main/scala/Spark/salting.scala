@@ -1,4 +1,4 @@
-package Spark
+/*package Spark
 
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.{when, col,lit}
@@ -23,3 +23,4 @@ object salting extends App {
   joinedDf.show(false)
   
 }
+*/

@@ -8,13 +8,16 @@ object read_file_from_abfss extends App {
     .appName("Banking Spark Scala Test")
     .getOrCreate()
 
-    val rawCustomerPath = "abfss://raw@stbanking2011.dfs.core.windows.net/customer.csv"
+      val containerName = args(0)
+       val fileName = args(1)
+
+    val rawCustomerPath = s"abfss://$containerName@stbanking2011.dfs.core.windows.net/$fileName.csv"
     val customerDF = spark.read
     .option("header", "true")
     .option("inferSchema", "true")
   .csv(rawCustomerPath)
   
   customerDF.printSchema()
-  customerDF.count().toInt
+  println(customerDF.count().toInt)
 
 }
